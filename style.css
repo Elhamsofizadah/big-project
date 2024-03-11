@@ -1,0 +1,62 @@
+body{
+    background-color:rgb(17, 17, 16) ;
+    color: rgb(240, 243, 245);
+    margin: 0%;
+    padding: 0%;
+}
+ul, a {
+list-style:none;
+margin: 0%;
+padding: 0%;
+text-decoration: none;
+
+}
+header{
+    background-color:rgb(100, 99, 99) ;
+    padding:20px 0;
+    box-shadow:0 2px 4px rgb(17, 17, 16);
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 20px ;
+}
+nav ul li a {
+    color: white;
+    font-size:20px ;
+    padding:6px 12px ;
+    border-radius:6px ;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover,nav ul li a:focus {
+    background-color:black;
+}
+.test{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.item {
+    text-align: center;
+}
+.item p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
+div {
+    margin: 100px;
+}
+.h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.movies{
+    background-color: rgb(85, 83, 83);
+    width: 250px;
+    height: 250px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    border: 100px ;
+}
